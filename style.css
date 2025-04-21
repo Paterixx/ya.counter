@@ -35,6 +35,7 @@ blockquote {
 button {
   font: inherit;
   font-size: 35px; 
+  white-space: nowrap;
 }
 
 div {
