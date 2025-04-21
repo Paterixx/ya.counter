@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #141414;
+  color: #fff;
+}
+
 body {
-  width: 428px;
-  height: 926px;
+  width: 430px;
+  height: min-content;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   text-align: center;
@@ -29,16 +34,16 @@ blockquote {
 
 button {
   font: inherit;
-  font-size: 40px;
+  font-size: 38px;
   
 }
 
 div {
-  margin-top: 40px;
+  margin: 40px 10px;
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
@@ -62,6 +67,14 @@ p:last-of-type {
   margin-bottom: 40px;
 }
 
+span {
+  font-weight: bold;
+}
+
 ul {
   list-style: none;
+}
+
+footer p {
+  font-size: 20px;
 }
