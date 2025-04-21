@@ -60,7 +60,7 @@ function loadHistory() {
     historyList.innerHTML = '';
     for (let date in clickHistory) {
         const li = document.createElement('li');
-        li.textContent = `${date} - Установок: ${clickHistory[date].length}`;
+        li.textContent = `${date}: ${clickHistory[date].length} уст.`;
         li.addEventListener('click', function() {
             showLogPage(date);
         });
