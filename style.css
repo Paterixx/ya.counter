@@ -34,8 +34,11 @@ blockquote {
 
 button {
   font: inherit;
-  font-size: 35px; 
-  white-space: nowrap;
+  font-size: 40px; 
+}
+
+#viewHistoryButton {
+  font-size: 32px;
 }
 
 div {
