@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Яндекс.Поиск</title>
+</head>
+<body>
+    <div id="mainPage">
+        <h1>Количество установок</h1>
+        <button id="clickButton">+1 установка</button>
+        <p>Количество установок: <span id="clickCount">0</span></p>
+        <p>Последняя установка: <span id="lastClickTime">Не было установок</span></p>
+        <button id="saveButton">Сохранить</button>
+        <button id="viewHistoryButton">Посмотреть историю</button>
+    </div>
+
+    <div id="historyPage">
+        <h1>Сохранённые результаты</h1>
+        <ul id="historyList">
+        </ul>
+        <button id="backToMainButton">Назад на главную</button>
+    </div>
+
+    <div id="logPage">
+        <h1>Логи установок</h1>
+        <ul id="logList">
+        </ul>
+        <button id="backToHistoryButton">Назад к истории</button>
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+</html>
